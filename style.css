@@ -1,0 +1,93 @@
+/* * {
+  border: 2px solid purple;
+} */
+.main-container {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc-container {
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 100%;
+  width: 250px;
+  height: 390px;
+  /* background-color: #605e5e; */
+  border: 2px solid #605e5e;
+  max-height: 100%;
+}
+
+.screen {
+  /* box-shadow: 0 4px 8px 0 rgba(55, 53, 53, 0.2),
+    0 6px 20px 0 rgba(53, 22, 22, 0.19); */
+  /* height: 70px;
+  width: 340px;
+  object-fit: contain;
+  max-width: 100%; */
+  height: 70px;
+  width: 245px;
+  margin-bottom: 15px;
+  max-width: 100%;
+  border-radius: 10px;
+  background-color: rgb(207, 209, 209);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  font-size: 35px;
+  text-align: end;
+}
+
+.buttons-container {
+  height: 300px;
+  width: 250px;
+  max-width: 100%;
+  /* border: 10 solid black; */
+}
+
+.button-row-1 {
+  display: flex;
+  column-gap: 5px;
+  margin-bottom: 5px;
+}
+
+.button-row-2 {
+  display: flex;
+  column-gap: 5px;
+  margin-bottom: 5px;
+}
+
+.button-row-3 {
+  display: flex;
+  column-gap: 5px;
+  margin-bottom: 5px;
+}
+.button-row-4 {
+  display: flex;
+  column-gap: 5px;
+}
+
+.button {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(2, 0, 0);
+  background-color: rgb(207, 209, 209);
+  height: 70px;
+  width: 50px;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.equal-button {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(2, 0, 0);
+  background-color: rgb(207, 209, 209);
+  height: 70px;
+  width: 150px;
+  border-radius: 10px;
+  max-width: 100%;
+}
